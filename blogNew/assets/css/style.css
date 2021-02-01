@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.container .title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container .title h1 {
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.container .menu {
+    max-width: 750px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .menu .nav span a {
+    color: #000;
+    margin: 15px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.container .menu .nav span a:hover {
+    text-decoration: underline;
+}
+
+.container .menu .mail {
+    display: flex;
+}
+
+.container .menu .mail i {
+    margin-right: 5px;
+}
+
+.container .post {
+    margin-top: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container .post .card {
+    max-width: 1000px;
+    display: flex;
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 15px;
+    padding-bottom: 25px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.container .post .card .img img {
+    width: 200px;
+}
+
+.container .post .card .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.container .post .card .text h2 {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container .post .card .text h3 {
+    letter-spacing: .5px;
+    max-width: 650px;
+    color: rgba(0, 0, 0, .75)
+}
+
+.container .post .card .button {
+    padding: 10px 20px;
+    background-color: #000;
+    position: absolute;
+    right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .post .card .button a {
+    color: #fff;
+}
+
+.container .post .card .button i {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.container .next {
+    margin: 50px auto;
+    text-align: center;
+    max-width: 300px;
+}
+
+.container .next a {
+    color: #fff;
+    padding: 20px 30px;
+    background-color: #000;
+}
+
+.container .next a:hover {
+    transition: .5s all ease;
+    background-color: #fff;
+    color: #000;
+}
+
+.container .next a i {
+    margin-left: 20px;
+}
+
+.container .footer {
+    max-width: 1500px;
+    margin: 50px;
+    margin-bottom: 0;
+    padding: 25px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.container .footer h5 {
+    padding-bottom: 15px;
+}
+
+.container .footer h5 a {
+    color: #fff;
+}
